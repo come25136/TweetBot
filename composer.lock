@@ -1,0 +1,78 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d503dd4f6ec4c4ab96cd922902f7f123",
+    "content-hash": "03fe051ab42d01f60c27288257c4b4ad",
+    "packages": [
+        {
+            "name": "mpyw/twistoauth",
+            "version": "3.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpyw/TwistOAuth.git",
+                "reference": "ffef940f238895d27ebb89a631f99d447d2b116d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpyw/TwistOAuth/zipball/ffef940f238895d27ebb89a631f99d447d2b116d",
+                "reference": "ffef940f238895d27ebb89a631f99d447d2b116d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-hash": "*",
+                "ext-json": "*",
+                "ext-reflection": "*",
+                "lib-curl": "*",
+                "lib-libxml": "*",
+                "lib-openssl": "*",
+                "lib-pcre": "*",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "mpyw",
+                    "email": "ryosuke_i_628@yahoo.co.jp",
+                    "homepage": "https://gravatar.com/mpyw",
+                    "role": "developer"
+                }
+            ],
+            "description": "Advanced PHP Twitter library.",
+            "keywords": [
+                "Twitpic",
+                "UserStream",
+                "api",
+                "async",
+                "asynchronous",
+                "image",
+                "multiple",
+                "oauth",
+                "paralell",
+                "streaming",
+                "twitter",
+                "upload"
+            ],
+            "time": "2016-01-24 09:01:47"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mpyw/twistoauth": "~3.5.2"
+    }
+}
